@@ -1,6 +1,4 @@
 'use client'
-import Image from "next/image";
-import styles from "./page.module.css";
 import {useState} from "react";
 import {Box, Button, Stack, TextField} from "@mui/material";
 import ReactMarkdown from 'react-markdown';
