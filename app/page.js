@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import {useState} from "react";
 import {Box, Button, Stack, TextField} from "@mui/material";
+import ReactMarkdown from 'react-markdown';
 
 export default function Home() {
   const [messages,setmessages]=useState([
@@ -15,9 +16,9 @@ export default function Home() {
   const sendmessage=async ()=>{
     setmessages((messages)=>[
       ...messages,
-          {role:'user',content:message},
-          {role:'assistant',content:''},
-    ])
+      {role:'user',content:message},
+      {role:'assistant',content:''},
+    ]);
     setmessage('');
     const response=fetch('/api/chat',{
       method:'POST',
@@ -32,7 +33,7 @@ export default function Home() {
       return reader.read().then(function processtext({done,value}){
         if(done){return result;}
         const text=decoder.decode(value||new Uint8Array(),{stream:true});
-        setmessages((message)=>{
+        setmessages((messages)=>{
           let lastmessage=messages[messages.length-1];
           let othermessages=messages.slice(0,messages.length-1);
           return [
@@ -49,19 +50,16 @@ export default function Home() {
         <Stack direction='column' width='500px' height='700px' border='1px solid black' padding={2} spacing={3}>
           <Stack direction='column' spacing={2} flexGrow={1} overflow='auto' maxHeight='100%'>
             {messages.map((message,index)=>(
-              <Box key={index} display='flex' justifyContent={message.role==='assistant'?'primary.main':'secondary.main'}>
+              <Box key={index} display='flex' justifyContent={message.role==='assistant'?'flex-start':'flex-end'}>
                 <Box bgcolor={message.role==='assistant'?'primary.main':'secondary.main'} color='white' borderRadius={16} p={3}>
-                  {message.content}
+                  <ReactMarkdown>{message.content}</ReactMarkdown>
                 </Box>
               </Box>
             ))}
           </Stack>
           <Stack direction='row' spacing={2}>
-            <TextField label='Message' fullWidt value={message} onChange={(e)=>{setmessage(e.target.value)}}>
-              <Button variant='contained' onClick={sendmessage}>
-                Send
-              </Button>
-            </TextField>
+            <TextField label='Message' fullWidth value={message} onChange={(e)=>{setmessage(e.target.value)}}></TextField>
+            <Button variant='contained' onClick={sendmessage}>Send</Button>
           </Stack>
         </Stack>
       </Box>
