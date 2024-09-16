@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. Emily Johnson",
+      "subject": "Biology",
+      "stars": 4,
+      "review": "Dr. Johnson's lectures are engaging and informative. She always makes time for students' questions."
+    },
+    {
+      "professor": "Prof. Michael Chang",
+      "subject": "Computer Science",
+      "stars": 5,
+      "review": "Brilliant professor! His explanations of complex algorithms are crystal clear."
+    },
+    {
+      "professor": "Dr. Sarah Williams",
+      "subject": "Psychology",
+      "stars": 3,
+      "review": "Interesting course material, but the workload can be overwhelming at times."
+    },
+    {
+      "professor": "Prof. David Martinez",
+      "subject": "History",
+      "stars": 4,
+      "review": "Prof. Martinez brings history to life with his passionate storytelling."
+    },
+    {
+      "professor": "Dr. Lisa Chen",
+      "subject": "Chemistry",
+      "stars": 5,
+      "review": "Exceptional teacher! Her lab demonstrations are both educational and entertaining."
+    },
+    {
+      "professor": "Prof. Robert Taylor",
+      "subject": "Economics",
+      "stars": 2,
+      "review": "Lectures can be dry, and the exams are much harder than the coursework."
+    },
+    {
+      "professor": "Dr. Angela Davis",
+      "subject": "Sociology",
+      "stars": 4,
+      "review": "Thought-provoking discussions in every class. Dr. Davis challenges students to think critically."
+    },
+    {
+      "professor": "Prof. James Wilson",
+      "subject": "Physics",
+      "stars": 3,
+      "review": "Knowledgeable, but sometimes struggles to explain concepts to non-physics majors."
+    },
+    {
+      "professor": "Dr. Maria Rodriguez",
+      "subject": "Literature",
+      "stars": 5,
+      "review": "Dr. Rodriguez's passion for literature is contagious. Her class is a joy to attend."
+    },
+    {
+      "professor": "Prof. Thomas Lee",
+      "subject": "Mathematics",
+      "stars": 4,
+      "review": "Clear explanations and always willing to help during office hours."
+    },
+    {
+      "professor": "Dr. Olivia Brown",
+      "subject": "Art History",
+      "stars": 5,
+      "review": "Dr. Brown's lectures are like guided tours through art museums. Absolutely fascinating!"
+    },
+    {
+      "professor": "Prof. Daniel Kim",
+      "subject": "Political Science",
+      "stars": 3,
+      "review": "Interesting course content, but discussions can sometimes get off-topic."
+    },
+    {
+      "professor": "Dr. Rachel Green",
+      "subject": "Environmental Science",
+      "stars": 4,
+      "review": "Dr. Green's field trips make learning about ecosystems a hands-on experience."
+    },
+    {
+      "professor": "Prof. Alexander Ivanov",
+      "subject": "Philosophy",
+      "stars": 5,
+      "review": "Mind-bending lectures that challenge your perspective on life and existence."
+    },
+    {
+      "professor": "Dr. Samantha Patel",
+      "subject": "Neuroscience",
+      "stars": 4,
+      "review": "Complex subject made accessible through Dr. Patel's clear teaching style."
+    },
+    {
+      "professor": "Prof. William Garcia",
+      "subject": "Business Administration",
+      "stars": 2,
+      "review": "Relies too heavily on group projects. Lectures don't add much value beyond the textbook."
+    },
+    {
+      "professor": "Dr. Elizabeth Taylor",
+      "subject": "Linguistics",
+      "stars": 5,
+      "review": "Dr. Taylor's enthusiasm for language is infectious. Best class I've taken in college!"
+    },
+    {
+      "professor": "Prof. Christopher Wong",
+      "subject": "Engineering",
+      "stars": 3,
+      "review": "Knowledgeable but strict. Be prepared for challenging problem sets and exams."
+    },
+    {
+      "professor": "Dr. Nicole Adams",
+      "subject": "Anthropology",
+      "stars": 4,
+      "review": "Fascinating lectures on human cultures. Dr. Adams encourages critical thinking and open discussions."
+    },
+    {
+      "professor": "Prof. Jonathan Lewis",
+      "subject": "Music Theory",
+      "stars": 5,
+      "review": "Prof. Lewis makes complex musical concepts accessible and fun to learn. Highly recommended!"
+    }
+  ]
+}
